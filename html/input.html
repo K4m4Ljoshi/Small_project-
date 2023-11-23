@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me with any enquiries or opportunities.</p>
+    <form action="mailto:joshilokesh969@gmail.com" method="post" enctype="text/plain">
+        <label for="">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name " name="First_Name" value="Kamal"><br>
+        <label for="">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name " name="Last_Name " value="Joshi"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" pattern="[0-9]{10}" maxlength="10" id="phone" name="Phone_Number" required><br>
+        <label for="">Date:</label>
+        <input type="date" placeholder="Enter today date" name="Date" >
+        <br>
+        <label for="">Enter Email:</label>
+        <input type="email" placeholder="Enter Your Email" name="Email">
+        <br>
+        <label for="Gender">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <br>
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female">
+        <br>
+        <label for="others">Others</label>
+        <input type="radio" name="Gender" id="others"><br>
+        <label for="color">Which color is your favourite:</label>
+        <br>
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="Red">
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="blue" name="Blue">
+        <label for="green">Green</label>
+        <input type="checkbox" name="Green" id="green">
+        <br>
+        <label for="fruits">Choose a fruit</label>
+        <select name="Fruit" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="grapes">Grapes</option>
+        </select>
+        <br>
+        <label for="file">Choose a file:</label>
+        <input type="file" name="file" id="file"><br>
+        <label for="range">select range:</label>
+        <input type="range" id="range" name="range"><br>
+        <textarea name="textarea" id="" cols="30" rows="10">Enter something</textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
